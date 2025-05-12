@@ -493,6 +493,8 @@ function ProductDetailPage() {
       demoUrl = "https://employe-system-black.vercel.app/";
     } else if (product.name === "Payroll Management System") {
       demoUrl = "https://ceitcs-payroll-system.vercel.app/";
+    } else if (product.name === "Payment Gateway") {
+      demoUrl = "https://payment-phi-blond.vercel.app/";
     }
     
     // Open the demo in a new tab

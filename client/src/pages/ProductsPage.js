@@ -211,8 +211,10 @@ function ProductCard({ product }) {
                     ? "https://employe-system-black.vercel.app/"
                     : product.name === "Payroll Management System"
                     ? "https://ceitcs-payroll-system.vercel.app/"
+                    : product.name === "Payment Gateway"
+                    ? "https://payment-phi-blond.vercel.app/"
                     : "#"
-                } 
+                }
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="px-3 py-2 text-primary-600 transition-all duration-300 border border-primary-100 rounded-lg hover:bg-primary-50 hover:shadow-md flex items-center gap-1" 
