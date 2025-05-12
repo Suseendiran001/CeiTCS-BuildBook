@@ -319,11 +319,11 @@ Whether you're managing raw materials, finished goods, or company assets, the Ma
     reviews: 156,
     price: 1099,
     description: 'Secure and reliable payment processing solution for online transactions and invoicing.',
-    longDescription: `The Payment Gateway is a secure and reliable solution designed to streamline online payment processing for businesses of all sizes. This robust system supports multiple payment methods including credit cards, debit cards, digital wallets, and bank transfers, providing your customers with flexibility in how they pay.
+    longDescription: `The Payment Gateway is a comprehensive payment processing solution designed for businesses of all sizes. Whether you're running an e-commerce store, a subscription service, or handling invoicing for clients, our gateway provides secure, reliable payment processing.
 
-With state-of-the-art security features including encryption, tokenization, and fraud detection, the Payment Gateway ensures that sensitive payment information is protected at all times. The system is PCI DSS compliant, meeting the highest industry standards for payment security.
+With support for multiple payment methods, including credit cards, digital wallets, and bank transfers, this system offers flexibility for both merchants and customers. Advanced fraud detection algorithms help protect your business and customers from unauthorized transactions.
 
-From one-time transactions to recurring billing, the Payment Gateway handles all aspects of payment processing, allowing you to focus on growing your business while providing your customers with a seamless payment experience.`,
+The intuitive dashboard provides real-time insights into your payment activities, making it easy to track transactions, manage refunds, and generate reports. Our automated recurring billing feature is perfect for subscription-based businesses, ensuring timely payments without manual intervention.`,
     features: [
       'Multiple payment method support',
       'Secure transaction processing',
@@ -331,10 +331,10 @@ From one-time transactions to recurring billing, the Payment Gateway handles all
       'Invoicing and payment tracking',
       'Fraud detection and prevention',
       'Comprehensive reporting dashboard',
-      'Multi-currency support for global transactions',
-      'PCI DSS compliance for secure processing',
-      'Customizable checkout experience',
-      'API for seamless integration with existing systems'
+      'API for custom integration',
+      'Multi-currency support',
+      'Payment page customization',
+      'Customer data vault'
     ],
     tags: ['Finance', 'Payments', 'E-commerce', 'Security'],
     image: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
@@ -347,37 +347,110 @@ From one-time transactions to recurring billing, the Payment Gateway handles all
       browsers: 'Chrome, Firefox, Safari, Edge'
     },
     screenshots: [
-      'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-      'https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-      'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
+      'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1559067096-49ebca3406aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
     ],
     benefits: [
-      'Increase conversion rates with a seamless checkout experience',
-      'Reduce cart abandonment with multiple payment options',
-      'Protect customer data with advanced security features',
-      'Streamline revenue collection with automated recurring billing',
-      'Expand globally with multi-currency support'
+      'Increase conversion rates with smooth checkout experiences',
+      'Reduce cart abandonment with flexible payment options',
+      'Protect your business with advanced fraud detection',
+      'Streamline operations with automated billing and invoicing',
+      'Gain insights with comprehensive payment analytics'
     ],
     faq: [
       {
-        question: 'Is the Payment Gateway PCI DSS compliant?',
-        answer: 'Yes, our Payment Gateway is fully PCI DSS compliant, ensuring that all transactions are processed according to the highest security standards in the payment industry.'
+        question: 'How secure is the payment processing?',
+        answer: 'Our payment gateway utilizes industry-standard encryption and is PCI DSS compliant, ensuring the highest level of security for all transactions.'
       },
       {
-        question: 'Which payment methods are supported?',
-        answer: 'The system supports all major credit and debit cards, digital wallets (Apple Pay, Google Pay, PayPal), bank transfers, and alternative payment methods depending on your region.'
+        question: 'Can I customize the checkout page?',
+        answer: 'Yes, you can fully customize the checkout page to match your brand\'s look and feel, creating a seamless experience for your customers.'
       },
       {
-        question: 'Can I customize the checkout experience?',
-        answer: 'Absolutely. The Payment Gateway offers a customizable checkout experience that can be tailored to match your brand, ensuring a seamless experience for your customers.'
+        question: 'What payment methods are supported?',
+        answer: 'We support credit/debit cards (Visa, Mastercard, Amex), digital wallets (Apple Pay, Google Pay), bank transfers, and can add support for local payment methods as needed.'
       },
       {
-        question: 'How does the fraud detection system work?',
-        answer: 'Our advanced fraud detection system uses machine learning algorithms to analyze transaction patterns and identify potentially fraudulent activities, reducing the risk of chargebacks.'
+        question: 'How are refunds processed?',
+        answer: 'Refunds can be processed easily through the admin dashboard, with options for full or partial refunds. The process is automated and typically completes within 3-5 business days.'
       },
       {
-        question: 'Can I process recurring payments for subscriptions?',
-        answer: 'Yes, the system includes robust recurring billing capabilities for subscription-based businesses, with customizable billing cycles and automatic retry logic for failed payments.'
+        question: 'Is there a transaction fee?',
+        answer: 'The software itself doesn\'t charge transaction fees. You\'ll only pay the standard payment processor fees. Our pricing is a flat rate for the software license.'
+      }
+    ]
+  },
+  {
+    id: 6,
+    name: 'Data/Code Bridge',
+    slug: 'data-code-bridge',
+    category: 'Development',
+    version: '2.0.1',
+    rating: 4.9,
+    reviews: 128,
+    price: 1399,
+    description: 'Advanced code conversion software for seamless integration between different programming languages and data formats.',
+    longDescription: `Data/Code Bridge is a revolutionary software solution designed to simplify code conversion and data transformation tasks across different programming languages and data formats. It serves as a vital link for developers and data scientists who work in multi-language environments or need to migrate legacy systems to modern platforms.
+
+Our intelligent mapping engine analyzes source code structure and semantics to produce clean, optimized code in the target language while preserving functionality and logic. The software supports bidirectional conversion between popular languages including Java, C#, Python, JavaScript, TypeScript, and more, eliminating the need for manual rewriting and reducing potential errors.
+
+Beyond code conversion, Data/Code Bridge excels at transforming data between formats like JSON, XML, CSV, YAML, and database structures, making it indispensable for data integration projects. The intuitive interface allows users to define custom conversion rules and templates to handle specific project requirements, while the built-in code quality analyzer ensures the converted code meets industry standards.`,
+    features: [
+      'Cross-language code conversion and translation',
+      'Automated syntax and structure mapping',
+      'Data format conversion between JSON, XML, CSV and more',
+      'Integration with popular IDEs and development tools',
+      'Custom conversion rule definitions',
+      'Code quality and optimization suggestions',
+      'Batch processing for multiple files',
+      'API for programmatic access',
+      'Version control integration',
+      'Detailed conversion reports and logging'
+    ],
+    tags: ['Development', 'Code Conversion', 'Integration', 'Programming', 'Data Transformation'],
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    demoAvailable: true,
+    techSpecs: {
+      deployment: 'On-premise or Cloud',
+      resources: 'Minimum 8GB RAM, 4 CPU cores',
+      database: 'SQLite/PostgreSQL',
+      os: 'Windows, macOS, Linux',
+      browsers: 'Chrome, Firefox, Safari, Edge'
+    },
+    screenshots: [
+      'https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
+    ],
+    benefits: [
+      'Reduce development time by up to 70% when migrating between languages',
+      'Minimize errors and bugs through automated conversion processes',
+      'Simplify integration between systems using different technologies',
+      'Preserve business logic when updating legacy applications',
+      'Streamline data exchange between diverse platforms and formats'
+    ],
+    faq: [
+      {
+        question: 'How accurate is the code conversion?',
+        answer: 'Our conversion engine achieves 90-95% accuracy for most common programming patterns and constructs. The remaining portions usually involve platform-specific features that may require manual adjustment, which the tool clearly identifies.'
+      },
+      {
+        question: 'Can it handle complex object-oriented code structures?',
+        answer: 'Yes, Data/Code Bridge is designed to understand and maintain complex object-oriented patterns including inheritance, polymorphism, interfaces, and design patterns across different languages.'
+      },
+      {
+        question: 'Does it support database query conversion?',
+        answer: 'Absolutely! The tool can convert between different SQL dialects (MySQL, PostgreSQL, SQL Server, Oracle) as well as translate between SQL and NoSQL query formats.'
+      },
+      {
+        question: 'How does licensing work for the converted code?',
+        answer: 'The converted code belongs entirely to you. Our tool doesn\'t add any proprietary marks or restrictions to the output code, and you retain full rights to use it as you wish.'
+      },
+      {
+        question: 'Can it integrate with our CI/CD pipeline?',
+        answer: 'Yes, Data/Code Bridge provides a comprehensive API and command-line interface that can be easily incorporated into automated workflows, including CI/CD pipelines for continuous conversion and validation.'
       }
     ]
   }
@@ -484,8 +557,7 @@ function ProductDetailPage() {
     
     // Open the appropriate demo URL based on the product name
     let demoUrl = "#";
-    
-    if (product.name === "Employee Management System") {
+      if (product.name === "Employee Management System") {
       demoUrl = "https://ceitcs-ems.vercel.app/";
     } else if (product.name === "Material Management System") {
       demoUrl = "https://materialistic-management.vercel.app/";
@@ -495,6 +567,8 @@ function ProductDetailPage() {
       demoUrl = "https://ceitcs-payroll-system.vercel.app/";
     } else if (product.name === "Payment Gateway") {
       demoUrl = "https://payment-phi-blond.vercel.app/";
+    } else if (product.name === "Data/Code Bridge") {
+      demoUrl = "https://frontend1-wiod.onrender.com/";
     }
     
     // Open the demo in a new tab

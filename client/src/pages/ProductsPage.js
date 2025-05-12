@@ -160,6 +160,35 @@ const PRODUCTS = [
       os: 'Windows, macOS, Linux',
       browsers: 'Chrome, Firefox, Safari, Edge'
     }
+  },
+  {
+    id: 6,
+    name: 'Data/Code Bridge',
+    slug: 'data-code-bridge',
+    category: 'Development',
+    version: '2.0.1',
+    rating: 4.9,
+    reviews: 128,
+    price: 1399,
+    description: 'Advanced code conversion software for seamless integration between different programming languages and data formats.',
+    features: [
+      'Cross-language code conversion and translation',
+      'Automated syntax and structure mapping',
+      'Data format conversion between JSON, XML, CSV and more',
+      'Integration with popular IDEs and development tools',
+      'Custom conversion rule definitions',
+      'Code quality and optimization suggestions'
+    ],
+    tags: ['Development', 'Code Conversion', 'Integration', 'Programming', 'Data Transformation'],
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    demoAvailable: true,
+    techSpecs: {
+      deployment: 'On-premise or Cloud',
+      resources: 'Minimum 8GB RAM, 4 CPU cores',
+      database: 'SQLite/PostgreSQL',
+      os: 'Windows, macOS, Linux',
+      browsers: 'Chrome, Firefox, Safari, Edge'
+    }
   }
 ];
 
@@ -168,7 +197,8 @@ const CATEGORIES = [
   { name: 'All Categories', value: 'all' },
   { name: 'HR', value: 'HR' },
   { name: 'Finance', value: 'Finance' },
-  { name: 'Inventory', value: 'Inventory' }
+  { name: 'Inventory', value: 'Inventory' },
+  { name: 'Development', value: 'Development' }
 ];
 
 // Price ranges for filtering
@@ -201,7 +231,8 @@ function ProductCard({ product }) {
           {product.description}
         </p>          <div className="flex items-center justify-between pt-3 border-t border-gray-100">
           <div>
-            {product.demoAvailable && (              <a 
+            {product.demoAvailable && (              
+              <a 
                 href={
                   product.name === "Employee Management System" 
                     ? "https://ceitcs-ems.vercel.app/" 
@@ -213,6 +244,8 @@ function ProductCard({ product }) {
                     ? "https://ceitcs-payroll-system.vercel.app/"
                     : product.name === "Payment Gateway"
                     ? "https://payment-phi-blond.vercel.app/"
+                    : product.name === "Data/Code Bridge"
+                    ? "https://frontend1-wiod.onrender.com/"
                     : "#"
                 }
                 target="_blank" 

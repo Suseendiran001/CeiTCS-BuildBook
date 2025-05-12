@@ -211,6 +211,14 @@ function HomePage() {
       image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       category: "Finance",
       to: "/products/payment-gateway"
+    },
+    {
+      id: 6,
+      title: "Data/Code Bridge",
+      description: "Advanced code conversion software for seamless integration between different programming languages and data formats.",
+      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      category: "Development",
+      to: "/products/data-code-bridge"
     }
   ];
   return (
