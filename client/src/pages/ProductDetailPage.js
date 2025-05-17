@@ -568,7 +568,7 @@ function ProductDetailPage() {
     } else if (product.name === "Payment Gateway") {
       demoUrl = "https://payment-phi-blond.vercel.app/";
     } else if (product.name === "Data/Code Bridge") {
-      demoUrl = "https://frontend1-wiod.onrender.com/";
+      demoUrl = "https://ai-frontend-0nsc.onrender.com/";
     }
     
     // Open the demo in a new tab

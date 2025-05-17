@@ -245,7 +245,7 @@ function ProductCard({ product }) {
                     : product.name === "Payment Gateway"
                     ? "https://payment-phi-blond.vercel.app/"
                     : product.name === "Data/Code Bridge"
-                    ? "https://frontend1-wiod.onrender.com/"
+                    ? "https://ai-frontend-0nsc.onrender.com/"
                     : "#"
                 }
                 target="_blank" 
